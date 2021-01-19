@@ -19,6 +19,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  row.to_i
   aoh[row][key]
 end
 
